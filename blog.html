@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing — Arya Sapkal</title>
+  <meta name="description" content="Notes on machine learning, systems programming, and research from Arya Sapkal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;650;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a href="index.html" class="nav-mark"><span class="dot"></span>arya sapkal</a>
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="blog.html" class="active">writing</a></li>
+        <li><a href="assets/Arya_Sapkal_Resume.pdf" target="_blank" rel="noopener">resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" style="padding-bottom: var(--space-4);">
+    <div class="wrap">
+      <p class="terminal-prompt">
+        arya@sapkal<span class="path">:~/writing$</span> ls -la<span class="cursor"></span>
+      </p>
+      <h1 style="font-size: clamp(2rem, 4vw, 2.8rem);">Writing</h1>
+      <p class="lede">
+        Notes from research labs, hackathons, and personal projects —
+        written mostly so future-me remembers what past-me learned.
+      </p>
+    </div>
+  </header>
+
+  <section class="section" style="border-top: none; padding-top: 0;">
+    <div class="wrap">
+      <div id="post-list" class="post-list">
+        <p class="loading-row">$ fetching posts from blog.db …</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="foot-note">© 2026 Arya Sapkal — built with html, css, js &amp; sqlite</p>
+      <ul class="foot-links">
+        <li><a href="https://github.com/AryaSapkal" target="_blank" rel="noopener">github</a></li>
+        <li><a href="https://www.linkedin.com/in/aryasapkal" target="_blank" rel="noopener">linkedin</a></li>
+        <li><a href="mailto:arya.sapkal1@gmail.com">email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/db.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>
